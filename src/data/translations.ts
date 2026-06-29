@@ -41,9 +41,24 @@ const translations = {
       title: "Where I've Worked",
       items: [
         {
+          role: "Freelance Frontend Developer",
+          company: "Freelance",
+          period: "Jan 2026 — Present",
+          highlights: [
+            "Work on frontend development and engineering automation projects for clients",
+            "Develop modern frontend applications using React and TypeScript",
+            "Build browser automation solutions using Python and Selenium for production websites",
+            "Design maintainable automation architecture using the Page Object Model",
+            "Integrate external APIs (mail.tm) for temporary email handling and verification workflows",
+            "Develop end-to-end automation pipelines including registration, navigation, email processing, and form submission",
+            "Work with dynamic DOM structures, robust selectors, and Cloudflare-protected websites",
+            "Create reusable CLI tools and automation utilities",
+          ],
+        },
+        {
           role: "Frontend Developer",
           company: "Dinely",
-          period: "Feb 2025 — Present",
+          period: "Feb 2025 — Dec 2025",
           highlights: [
             "Built a QR-code ordering system for restaurants and cafes — no apps, no waiters, just scan and order",
             "Developed admin & seller dashboards with smart menu and order management",
@@ -83,6 +98,11 @@ const translations = {
       label: "Projects",
       title: "What I've Built",
       items: [
+        {
+          title: "NiceNIC Automation Framework",
+          description:
+            "Built a production-style browser automation framework using Python and Selenium. Implemented complete user workflows including registration automation, temporary email integration, email confirmation flow, and ticket submission. Applied Page Object Model architecture, reusable browser driver abstraction, CLI runner, multi-browser workflow, robust selectors, mail.tm API integration, and Cloudflare-compatible browser configuration.",
+        },
         {
           title: "Dinely",
           description: "QR-code ordering system for restaurants and cafes. Scan, browse the menu, and order — no apps or waiters needed. Includes admin & seller dashboards with AI-powered menu creation via OpenAI.",
@@ -178,9 +198,24 @@ const translations = {
       title: "Где я работал",
       items: [
         {
+          role: "Фриланс фронтенд-разработчик",
+          company: "Фриланс",
+          period: "Янв 2026 — настоящее время",
+          highlights: [
+            "Работа над фронтенд-разработкой и проектами инженерной автоматизации для клиентов",
+            "Разработка современных фронтенд-приложений на React и TypeScript",
+            "Создание решений для браузерной автоматизации на Python и Selenium для production-сайтов",
+            "Проектирование поддерживаемой архитектуры автоматизации по паттерну Page Object Model",
+            "Интеграция внешних API (mail.tm) для временной почты и верификационных сценариев",
+            "Разработка end-to-end пайплайнов автоматизации: регистрация, навигация, обработка email и отправка форм",
+            "Работа с динамическими DOM-структурами, надёжными селекторами и сайтами с защитой Cloudflare",
+            "Создание переиспользуемых CLI-инструментов и утилит для автоматизации",
+          ],
+        },
+        {
           role: "Фронтенд-разработчик",
           company: "Dinely",
-          period: "Фев 2025 — настоящее время",
+          period: "Фев 2025 — Дек 2025",
           highlights: [
             "Разработал систему QR-заказов для ресторанов и кафе — без приложений, без официантов, просто сканируй и заказывай",
             "Создал админ- и продавец-панели с умным управлением меню и заказами",
@@ -220,6 +255,11 @@ const translations = {
       label: "Проекты",
       title: "Что я создал",
       items: [
+        {
+          title: "NiceNIC Automation Framework",
+          description:
+            "Production-style фреймворк браузерной автоматизации на Python и Selenium. Реализованы полные пользовательские сценарии: автоматизация регистрации, интеграция временной почты, подтверждение email и отправка тикетов. Применены Page Object Model, переиспользуемая абстракция браузерного драйвера, CLI runner, multi-browser workflow, надёжные селекторы, интеграция mail.tm API и Cloudflare-совместимая конфигурация браузера.",
+        },
         {
           title: "Dinely",
           description: "Система QR-заказов для ресторанов и кафе. Сканируй, смотри меню и заказывай — без приложений и официантов. Включает админ- и продавец-панели с ИИ-генерацией меню через OpenAI.",

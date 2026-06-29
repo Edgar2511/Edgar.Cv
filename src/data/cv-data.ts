@@ -28,6 +28,8 @@ export const cvData = {
       { name: "npm / yarn", level: 85 },
       { name: "Docker", level: 55 },
       { name: "ESLint / Prettier", level: 85 },
+      { name: "Python", level: 70 },
+      { name: "Selenium", level: 70 },
     ],
     other: [
       "Responsive Design",
@@ -40,14 +42,32 @@ export const cvData = {
       "Accessibility (a11y)",
       "Performance Optimization",
       "CI/CD Basics",
+      "Page Object Model",
+      "Browser Automation",
     ],
   },
 
   experience: [
     {
+      role: "Freelance Frontend Developer",
+      company: "Freelance",
+      period: "Jan 2026 — Present",
+      highlights: [
+        "Work on frontend development and engineering automation projects for clients",
+        "Develop modern frontend applications using React and TypeScript",
+        "Build browser automation solutions using Python and Selenium for production websites",
+        "Design maintainable automation architecture using the Page Object Model",
+        "Integrate external APIs (mail.tm) for temporary email handling and verification workflows",
+        "Develop end-to-end automation pipelines including registration, navigation, email processing, and form submission",
+        "Work with dynamic DOM structures, robust selectors, and Cloudflare-protected websites",
+        "Create reusable CLI tools and automation utilities",
+      ],
+      tech: ["React", "TypeScript", "Python", "Selenium", "Page Object Model", "REST API"],
+    },
+    {
       role: "Frontend Developer",
       company: "Dinely",
-      period: "Feb 2025 — Present",
+      period: "Feb 2025 — Dec 2025",
       highlights: [
         "Built a QR-code ordering system for restaurants and cafes — no apps, no waiters, just scan and order",
         "Developed admin & seller dashboards with smart menu and order management",
@@ -87,6 +107,13 @@ export const cvData = {
   ],
 
   projects: [
+    {
+      title: "NiceNIC Automation Framework",
+      description:
+        "Built a production-style browser automation framework using Python and Selenium. Implemented complete user workflows including registration automation, temporary email integration, email confirmation flow, and ticket submission. Applied Page Object Model architecture, reusable browser driver abstraction, CLI runner, multi-browser workflow, robust selectors, mail.tm API integration, and Cloudflare-compatible browser configuration.",
+      tech: ["Python", "Selenium", "undetected-chromedriver", "REST API", "Page Object Model"],
+      links: [],
+    },
     {
       title: "Dinely",
       description:
